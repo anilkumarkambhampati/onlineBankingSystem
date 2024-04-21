@@ -1,0 +1,153 @@
+body {
+    background-color: rgb(255, 153, 0);
+}
+
+select {
+    width: 300px;
+}
+
+select option {
+    width: 300px;
+}
+
+td,
+tr {
+    padding: 05px;
+    font-size: 20px;
+
+}
+
+.back {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 153, 0);
+}
+
+.back a {
+    color: black;
+    text-align: left;
+    font-size: 25px;
+    text-decoration: none;
+    background-color: rgb(255, 153, 0);
+}
+
+.back a:hover {
+    color: whitesmoke;
+}
+
+.container1 {
+
+    background-color: rgb(255, 230, 0);
+    height: 390px;
+    width: 98%;
+    border-radius: 10px;
+}
+
+.container2 {
+    padding: 10px;
+    background-color: rgb(255, 230, 0);
+    height: 177px;
+    width: 98%;
+    border-radius: 10px;
+}
+
+.container3 {
+    padding: 10px;
+    background-color: rgb(255, 230, 0);
+    height: 240px;
+    width: 98%;
+    border-radius: 10px;
+}
+
+.container4 {
+
+    background-color: rgb(255, 230, 0);
+    height: 180px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.container5 {
+    padding: 10px;
+    background-color: rgb(255, 230, 0);
+    height: 140px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.container6 {
+    padding: 10px;
+    background-color: rgb(255, 230, 0);
+    height: 260px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.container7 {
+    background-color: rgb(255, 230, 0);
+    height: 160px;
+    font-size: 25px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.container8 {
+    background-color: rgb(255, 230, 0);
+    height: 280px;
+    font-size: 25px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.container9 {
+    background-color: rgb(255, 230, 0);
+    height: 240px;
+    font-size: 25px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+
+
+.container11 {
+
+    background-color: rgb(255, 230, 0);
+    height: 350px;
+    width: 65%;
+    border-radius: 10px;
+}
+
+.button {
+    padding: 12px 30px;
+    background-color: rgb(249, 199, 124);
+    color: rgb(7, 7, 7);
+    border-color: rgb(249, 199, 124);
+    border-radius: 5px;
+}
+
+.back {
+    height: 20px;
+    width: 40px;
+    padding: 12px 30px;
+    background-color: rgb(141, 198, 249);
+}
+
+.position {
+    text-align: center;
+    background-color: rgb(255, 230, 0);
+    height: 130px;
+    width: 250;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.star {
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    background-color: greenyellow;
+    transition: all;
+}
