@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <link href="styling.css" rel="stylesheet">
+        <style>
+            select, option{
+                width:170px;
+                height:22px;
+            }
+            .container6 {
+                background-color: rgb(255, 230, 0);
+                height: 200px;
+                width: 420px;
+                border-radius: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <center><br>
+            <h1><b><u>Edit user information</u></b></h1>
+            <div class="container6"><br>
+                <form action="edit.php" method="post">
+                 <table>
+                    <tr>
+                        <th>Account Number:</th>
+                        <td>
+                            <input type="text" minlength="8" maxlength="8" name="acnumber" id="acnumber" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Field to be change:</th>
+                        <td>
+                            <select id="field" name="field">
+                                <option value="">select an option</option>
+                                <option value="name">Name</option1>
+                                <option value="fname">Gaurdian Name</option>
+                                <option value="mobile">Mobile</option>
+                                <option value="email">Email</option>
+                                <option value="username">Username</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="submit" value="change" class="button">
+                        </td>
+                    </tr>
+                 </table>
+                </form>
+            </div>
+        </center>
+    </body>
+</html>

@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(255, 153, 0);
+}
+
+.button {
+    padding: 12px 30px;
+    background-color: rgb(249, 199, 124);
+    color: rgb(7, 7, 7);
+    border-color: rgb(249, 199, 124);
+    border-radius: 5px;
+}
+
+th,
+td {
+    font-size: 20px;
+    padding: 15px;
+}
+
+.container1 {
+    background-color: rgb(255, 230, 0);
+    height: 215px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.container2 {
+    background-color: rgb(255, 230, 0);
+    height: 160px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.container3 {
+    background-color: rgb(255, 230, 0);
+    height: 160px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.container4 {
+    background-color: rgb(255, 230, 0);
+    height: 245px;
+    width: 425px;
+    border-radius: 20px;
+}
+
+.container5 {
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    width: 350px;
+    border-radius: 20px;
+    font-size: 30px;
+    color: rgb(1, 180, 1);
+}
